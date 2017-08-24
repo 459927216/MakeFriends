@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingFriends", "MakingFriends\MakingFriends.csproj", "{CA3C26C8-3B13-4BBB-BAD4-073DFF066A6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{80BA2D50-4BF6-4C27-B133-9714CD26A9D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{0F8417F5-E2E0-427E-9E9E-D94953077D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaixin.Data.Dapper", "..\Kaixin.Data.Dapper\Kaixin.Data.Dapper.csproj", "{8D1D4D9F-1410-4988-B0BF-BCDA28A7D08B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaixin.Core", "..\Kaixin.Core\Kaixin.Core.csproj", "{2B84C0ED-EF70-4616-9CF5-97250BDD3D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenInterface", "..\OpenInterface\OpenInterface\OpenInterface.csproj", "{217D94DF-C8BE-4E54-AA12-3B48E05508EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA3C26C8-3B13-4BBB-BAD4-073DFF066A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3C26C8-3B13-4BBB-BAD4-073DFF066A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3C26C8-3B13-4BBB-BAD4-073DFF066A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3C26C8-3B13-4BBB-BAD4-073DFF066A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8417F5-E2E0-427E-9E9E-D94953077D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8417F5-E2E0-427E-9E9E-D94953077D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8417F5-E2E0-427E-9E9E-D94953077D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8417F5-E2E0-427E-9E9E-D94953077D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1D4D9F-1410-4988-B0BF-BCDA28A7D08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1D4D9F-1410-4988-B0BF-BCDA28A7D08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1D4D9F-1410-4988-B0BF-BCDA28A7D08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1D4D9F-1410-4988-B0BF-BCDA28A7D08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B84C0ED-EF70-4616-9CF5-97250BDD3D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B84C0ED-EF70-4616-9CF5-97250BDD3D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B84C0ED-EF70-4616-9CF5-97250BDD3D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B84C0ED-EF70-4616-9CF5-97250BDD3D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217D94DF-C8BE-4E54-AA12-3B48E05508EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217D94DF-C8BE-4E54-AA12-3B48E05508EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217D94DF-C8BE-4E54-AA12-3B48E05508EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217D94DF-C8BE-4E54-AA12-3B48E05508EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F8417F5-E2E0-427E-9E9E-D94953077D81} = {80BA2D50-4BF6-4C27-B133-9714CD26A9D8}
+		{8D1D4D9F-1410-4988-B0BF-BCDA28A7D08B} = {80BA2D50-4BF6-4C27-B133-9714CD26A9D8}
+		{2B84C0ED-EF70-4616-9CF5-97250BDD3D2C} = {80BA2D50-4BF6-4C27-B133-9714CD26A9D8}
+		{217D94DF-C8BE-4E54-AA12-3B48E05508EF} = {80BA2D50-4BF6-4C27-B133-9714CD26A9D8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,230 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <title>个人信息</title>
+    <link href="~/Content/css/aui.css" rel="stylesheet" />
+    <style type="text/css">
+        .user-info {
+            background-color: #ffffff;
+            padding: 0.75rem 0;
+        }
+        .aui-col-xs-6 {
+            width: 40%;
+        }
+
+        img.avatar {
+            display: block;
+            margin: 0 auto;
+            width: 20%;
+        }
+        .head-img {
+            max-height: 4rem;
+            max-width: 4rem;
+            width: 100% !important;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="aui-content" style="position: absolute; overflow: auto; top: 2.25rem; bottom: 2.5rem;width: 100%">
+
+    <section class="aui-content user-info aui-text-center aui-margin-b-15">
+        <img src="~/Content/images/7.jpg" class="avatar aui-img-round head-img">
+        <h2 class="aui-margin-t-15">A000 牧峰户外运动</h2>
+
+        <div style="float:left !important;margin-top: 0.85rem !important;margin-left: 1rem;">
+        <img style="width:1.2rem;height:1.2rem;float:left" src="~/Content/images/huangguan.png" />
+        <img style="width:1.2rem;height:1.2rem;float:left" src="~/Content/images/huangguan.png" />
+        <img style="width:1.2rem;height:1.2rem;float:left" src="~/Content/images/vip.png" />
+        <img style="width:1.2rem;height:1.2rem;float:left" src="~/Content/images/zuanshi.png" />
+          </div>
+
+        <div class="aui-row aui-margin-t-15" style="float:right !important">
+            <div class="aui-col-xs-6 aui-text-right aui-border-r aui-padded-r-10">
+                <div id="leaveMsg" class="aui-btn aui-btn-info">是倒</div>
+            </div>
+            <div class="aui-col-xs-6 aui-text-right aui-border-r aui-padded-r-10">
+                <div class="aui-btn aui-btn-info" onclick="openSharebox();">是到的的</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="aui-content aui-margin-b-15">
+        <ul class="aui-list aui-media-list">
+            <li class="aui-list-header">
+                相册
+            </li>
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-row aui-row-padded">
+                        <div class="aui-col-xs-4">
+                            <img src="~/Content/jiaoben3911/images/4.jpg" />
+                        </div>
+                        <div class="aui-col-xs-4">
+                            <img src="~/Content/jiaoben3911/images/7.jpg" />
+                        </div>
+                       
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="aui-content aui-margin-b-15">
+        <ul class="aui-list">
+            <li class="aui-list-header">
+                个人信息
+            </li>
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-list-item-title">最近登录</div>
+                    <div class="aui-list-item-right">@DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")</div>
+                </div>
+            </li>
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-list-item-title">地区</div>
+                    <div class="aui-list-item-right">
+                        四川泸州
+                        
+                    </div>
+                </div>
+            </li>
+           
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-list-item-title">性别</div>
+                    <div class="aui-list-item-right">
+                        女
+                    </div>
+                </div>
+            </li>
+
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-list-item-title">年龄</div>
+                    <div class="aui-list-item-right">
+                        22
+                    </div>
+                </div>
+            </li>
+
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-list-item-title">身高</div>
+                    <div class="aui-list-item-right">
+                        165cm
+                    </div>
+                </div>
+            </li>
+          
+            <li class="aui-list-item">
+                <div class="aui-list-item-inner">
+                    <div class="aui-list-item-title">学历</div>
+                    <div class="aui-list-item-right">
+                        大专
+                    </div>
+                </div>
+            </li>
+         
+        </ul>
+    </div>
+
+    <div class="aui-content aui-margin-b-15">
+        <ul class="aui-list aui-media-list">
+            <li class="aui-list-header">
+                情感
+            </li>
+           
+            <li class="aui-list-item">
+                <div class="aui-media-list-item-inner">
+                    <div class="aui-list-item-media">
+                        <img src="~/Content/jiaoben3911/images/4.jpg" />
+                    </div>
+                    <div class="aui-list-item-inner">
+                        <div class="aui-list-item-text">
+                            <div class="aui-list-item-title">带有媒体电饭电饭锅锅电饭锅发的的列表二</div>
+                            
+                        </div>
+                        <div class="aui-list-item-text">
+                            在下方我们加入了aui-info信息条带有媒体电饭
+                        </div>
+                    </div>
+                </div>
+                <div class="aui-info" style="padding-top:0">
+                    <div class="aui-info-item">2015-07-14 10:31</div>
+                </div>
+            </li>
+        
+            <li class="aui-list-item">
+                <div class="aui-media-list-item-inner">
+                    <div class="aui-list-item-media">
+                        <img src="~/Content/jiaoben3911/images/4.jpg" />
+                    </div>
+                    <div class="aui-list-item-inner">
+                        <div class="aui-list-item-text">
+                            <div class="aui-list-item-title">带有媒体的列表二</div>
+                            <div class="aui-list-item-right">08:00</div>
+                        </div>
+                        <div class="aui-list-item-text">
+                            在下方我们加入了aui-info信息条
+                        </div>
+                    </div>
+                </div>
+                <div class="aui-info" style="padding-top:0">
+                    <div class="aui-info-item">2015-07-14 10:31</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+        </div>
+  
+    
+
+    <script type="text/javascript">
+        $(function () {
+            $("#leaveMsg").on("click", function () {
+                var num = getRandomNum(1, 2);
+                if (num == 1) {
+                    globaFn.jump("/Person/LeaveMsg");
+                } else {
+                    openActionsheet();
+                }
+            });
+        });
+
+        var actionsheet = new auiActionsheet();
+        function openActionsheet() {
+            actionsheet.init({
+                frameBounces: true,//当前页面是否弹动，（主要针对安卓端）
+                title: "开通VIP会员或者单次购买留言条数",
+                buttons: ['单次购买¥9.9元/100条', '开通VIP会员(终身不限制)']
+            }, function (ret) {
+                if (ret) {
+                    document.getElementById("button-index").textContent = ret.buttonIndex;
+                    document.getElementById("button-title").textContent = ret.buttonTitle;
+                }
+            })
+        }
+
+        var getRandomNum = function (Min, Max) {
+            var Range = Max - Min;
+            var Rand = Math.random();
+            return (Min + Math.round(Rand * Range));
+        }
+        </script>
+</body>
+
+</html>
+
+
+

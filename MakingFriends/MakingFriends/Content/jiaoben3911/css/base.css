@@ -1,0 +1,9 @@
+.article p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%;
+    font-size: 0.7rem;
+    line-height: 1.5;
+   color: #757575;
+}
